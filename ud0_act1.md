@@ -66,18 +66,23 @@
 + Reglas:
 ```
 <paises_del_mundo>
- <continente>
+ <país>
   <nombre>
   </nombre>
- </continente>
- <continente>
-
- </continente>
- <continente>
-
- </continente>
- <continente>
-
- </continente>
+  <idioma>
+  </idioma>
+ </país>
+ <país>
+  <nombre>
+  </nombre>
+ </país>
+ <país>
+  <nombre>
+  </nombre>
+ </país>
+ <país>
+  <nombre>
+  </nombre>
+ </país>
 </paises_del_mundo>
 ```
