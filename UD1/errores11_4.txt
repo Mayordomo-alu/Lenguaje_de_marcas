@@ -1,0 +1,8 @@
+1-. En la linea 1, después de escribir el DOCTYPE, pone "htm" en vez de "html".
+2-. En la linea 2, tiene mal escrito el atributo de lang="es", ya que se olvida de las comillas para el idioma y la G de language y solo pone "lan".
+3-. En la linea 4 la etiqueta <title> no se cierra correctamente y se ha dejado abierta.
+4-. En la linea 8, el orden de las etiquetas al cerrarlas de </b> y </p> están al revés, primero deberia cerrarse </b> y luego </p> para que aplique la negrita y luego cierre le parrafo.
+5-. En la linea 9, falta cerrar la etiqueta <p>, se ha dejado abierta entonces no puede saber donde termina el texto del parrafo.
+6-. En la linea 11, falta cerrar la etiqueta <li>.
+7-. En la linea 12, falta cerrar la etiqueta <li>.
+8-. Dentro el <head> antes del propio titulo, falta la asignacion de caracteres. No se ha definido el meta charset="UTF-8".
