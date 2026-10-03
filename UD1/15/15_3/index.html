@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pizzeria Pepe</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+            }
+            table, td, th{
+                border: solid darkolivegreen;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            td {
+                background-color: whitesmoke;
+                color: darkred;
+            }
+            th {
+                background-color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <caption>Pizzeria Pepe</caption>
+            <tr>
+                <th></th>
+                <th>L</th>
+                <th>XL</th>
+                <th>XXL</th>
+                <th colspan="2">Extra (1/2)</th>
+            </tr>
+
+            <tr>
+                <th>Margarita</th>
+                <td rowspan="2">8,99€</td>
+                <td rowspan="4">11,99€</td>
+                <td>12,99€</td>
+                <td>13,99€</td>
+                <td>14,49€</td>
+            </tr>
+
+            <tr>
+                <th>Prosciutto</th>
+                <td>13,99€</td>
+                <td>14,49€</td>
+                <td>15,99€</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Barbacoa <br> (con/sin piña)</th>
+                <td rowspan="2">9,99€</td>
+                <td>14,49€</td>
+                <td>18,99€</td>
+                <td>19,99€</td>
+            </tr>
+
+            <tr>
+                <td>14,99€</td>
+                <td colspan="2">17,99€</td>
+            </tr>
+
+            <tr>
+                <th>De la casa</th>
+                <td>10,99€</td>
+                <td>12,99€</td>
+                <td>15,99€</td>
+                <td colspan="2">20,00€</td>
+            </tr>
+        </table>
+    </body>
