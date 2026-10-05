@@ -1,0 +1,29 @@
+        body {
+            background-color: cadetblue;
+        }
+
+        div {
+            width: 52%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid black;
+            border-radius: 10px;
+            padding: 15px;
+            alignment-baseline: central;
+            background-color: lightblue;
+        }
+
+        h1 {
+            color: cadetblue;
+            text-decoration-line: underline;
+            text-align: center;
+        }
+
+        p {
+            text-indent: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        b {
+            text-transform: uppercase;
+        }

@@ -1,0 +1,5 @@
+# ¿Cuál de las tres formas es la más cómoda si tuvieras que cambiar el color del título en 10 páginas? 
++ La más comoda seria con un archivo de CSS externo, porque con una simple linea de código en las 10 páginas le aplicaría  todo el formato que quiera dejando así el código mucho más limpio y legible, el siguiente sería escribir en el head el style, pero tendrias que copiar todo el "tocho" en cada una de las páginas con información repetida y dificultando la lectura. Por último seria ponerlo en el propio atributo que quizás si es algo puntual, puede funcionar pero no a gran escala, el código seria illegible.
+
+## ¿Por qué se desaconseja la primera?
++ Porque ensucia el código dificultando su lectura o optimización para encontrar error y cambiar cosas, tendrías que ir linea a linea, atributo a atributo para simplemente cambiar de color o cambiar el padding. Es inpractico en todos los sentidos.
