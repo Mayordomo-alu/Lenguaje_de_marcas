@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ventas Atelier Series</title>
+    <style>
+        caption {
+            caption-side: bottom;
+        }
+
+        table {
+            empty-cells: hide;
+            /* No muestra los bordes en las celdas vacias */
+        }
+
+        table,
+        th,
+        td {
+            vertical-align: middle;
+            border: solid black;
+            border-spacing: 5px;
+            padding: 5px;
+
+        }
+
+        .numbers {
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Atelier series total sales</caption>
+
+        <thead>
+            <tr>
+                <th>Platform</th>
+                <th>Title</th>
+                <th>Week 1</th>
+                <th>LTD</th>
+                <th>Combined</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="2">Atelier Firis</td>
+                <td class="numbers">27.372</td>
+                <td class="numbers">35.961</td>
+                <td class="numbers" rowspan="2">58.438</td>
+            </tr>
+            <tr>
+                <td>[PSV]</td>
+                <td class="numbers">16.153</td>
+                <td class="numbers">23.477</td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="3">Atelier Lydie & Suelle</td>
+                <td class="numbers">22.681</td>
+                <td class="numbers" colspan="3" rowspan="3">180.000</td>
+            </tr>
+            <tr>
+                <td>[PSV]</td>
+                <td class="numbers">7.806</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td class="numbers">6.684</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td rowspan="2">Atelier Mysterious DX</td>
+                <td class="numbers">6.0922</td>
+                <td></td>
+                <td class="numbers" rowspan="2">9.096</td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td class="numbers">3.704</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="2">Atelier Lulua</td>
+                <td class="numbers">27.734</td>
+                <td class="numbers">41.208</td>
+                <td class="numbers" rowspan="2">63.238</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td class="numbers">12.473</td>
+                <td class="numbers">22.030</td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="2">Atelier Ryza</td>
+                <td class="numbers">53.428</td>
+                <td class="numbers" colspan="2" rowspan="2">500.000</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td class="numbers">25.538</td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="2">Atelier Ryza 2</td>
+                <td class="numbers">43.987</td>
+                <td class="numbers" colspan="2" rowspan="2">360.000</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td class="numbers">30.643</td>
+            </tr>
+            <tr>
+                <td>[PS4]</td>
+                <td rowspan="2">Atelier Sophie 2</td>
+                <td class="numbers">22.104</td>
+                <td class="numbers" colspan="2" rowspan="2">200.000</td>
+            </tr>
+            <tr>
+                <td>[NSW]</td>
+                <td class="numbers">18.912</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="5" style="text-align: right;">Total sales 8.000.000</td></tr>
+        </tfoot>
+    </table>
+</body>
