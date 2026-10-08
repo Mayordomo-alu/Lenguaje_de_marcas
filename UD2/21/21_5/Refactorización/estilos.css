@@ -1,0 +1,37 @@
+            /* Cuadro donde está el indice con sus enlaces para saltar a la página */
+            div.index {
+                width: 10%;
+                background-color: aquamarine;
+                border: solid darkcyan;
+                border-radius: 20px;
+                position: fixed
+            }
+
+            /* Lista dentro del índice */
+            ul li {
+                padding-left: 5%;
+            }
+
+            /* Texto y subtitulos de la pagina */
+            p,
+            h2 {
+                margin-left: 12%;
+                margin-right: 5%;
+            }
+            /* Bloque flotante con curiosidades a la derecha del parrafo */
+            blockquote {
+                border: solid goldenrod;
+                border-radius: 10px;
+                width: 20%;
+                background-color: wheat;
+                padding: 5px;
+                float: right;
+                margin-left: 1px;
+                margin-top: 1px;
+                margin-right: 5%;
+                color: darkred;
+
+            }
+            body{
+                background-color: rgb(173, 242, 219);
+            }

@@ -1,0 +1,25 @@
+/* No tiene cambios ponerlo primero que al final, cualquier dato que no haya sido especificado para una etiqueta 
+en concreto llevará el formato general, ya sea que se ponga la inicio o al final del documento */
+* {
+    color: aquamarine;
+    background-color: darkorange;
+    font-family: fantasy
+}
+
+h1 {
+    color: blueviolet;
+    text-decoration: dashed;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: burlywood;
+    padding: 15px;
+
+}
+
+p {
+    text-indent: 30px;
+    color: black;
+}

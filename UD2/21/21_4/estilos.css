@@ -1,0 +1,14 @@
+.corp {
+    color: aquamarine;
+    background-color: darkgoldenrod;
+}
+a[target]{
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: aqua;
+}
+p[class]{
+    color: red;
+    text-transform: uppercase;
+
+}

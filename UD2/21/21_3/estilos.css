@@ -1,0 +1,16 @@
+h1 em {
+    color: orange;
+}
+li p {
+    background-color: gray;
+}
+.comentarios p {
+    border-left: solid black;
+}
+
+p.especial {
+    color: aquamarine;
+}
+.especial {
+    color: darkblue;
+}
