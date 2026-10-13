@@ -1,0 +1,11 @@
+* {
+    width: 90%;
+    font-size: xx-large;
+}
+
+ul {
+    list-style: square outside url(img/puntito\ cuco.png);
+}
+
+/* La diferencia entre list-style-position inside y outside es, que inside incorpora los marcadores como parte del
+ texto, entonces compartiran espacio y el outside los deja al margen, dejando el texto mas espaciado del borde */

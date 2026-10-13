@@ -1,0 +1,24 @@
+ul li {
+    display: inline;
+    list-style: none;
+
+    border: solid black;
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    font-family: fantasy;
+}
+
+a:hover {
+    color: brown;
+}
+
+nav {
+    text-align: center;
+}
