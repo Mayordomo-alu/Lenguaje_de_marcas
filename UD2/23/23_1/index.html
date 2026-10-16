@@ -11,9 +11,9 @@
     <div>
         <form action="http://172.30.18.224:3000/" enctype="multipart/form-data" method="post">
             <table>
-                <caption>Formulario de alta de usuario</caption>
+                <caption><b>Formulario de alta de usuario</b></caption>
                 <tr>
-                    <td><label for="usuario">Identificador de nuevo usuario</label> <input type="text"
+                    <td colspan="2"><label for="usuario">Identificador de nuevo usuario</label> <input type="text"
                             value="usu_012345" readonly name="usuario" id="usuario"></td>
                 </tr>
                 <tr>
@@ -25,27 +25,26 @@
                 <tr>
                     <td><label for="pass">Contraseña: </label><input type="password" name="password" id="pass"
                             title="La contraseña tiene que contener almenos un numero y letra"></td>
-                    <td><label for="pass"></label> Confirmar contraseña: </label><input type="password" name="password2"
+                    <td><label for="pass">Confirmar contraseña: </label><input type="password" name="password2"
                             id="pass" title="Introduce de nuevo la contraseña"></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><label for="email">Email: </label><input type="text" name="email" id="email"
+                    <td colspan="2"><label for="email">Email: </label><input type="text" name="email" id="email" size="50"
                             title="Introduce tu email"></td>
                 </tr>
                 <tr>
-                    <td><label for="genero"></label> Sexo: </td>
+                    <td><label for="genero">Sexo: </label></td>
                     <td><input type="radio" name="sexo" value="hombre" id="genero">Hombre <input type="radio"
                             name="sexo" value="mujer" id="genero" checked>Mujer</td>
                 </tr>
                 <tr>
-                    <td rowspan="3"><label for="hobby">Aficiones: </label></td>
-                    <td><input type="checkbox" name="aficiones" value="deporte" id="hobby">Deporte</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="aficiones" checked value="lectura" id="hobby">Lectura</td>
-                </tr>
-                <tr>
-                    <td><input type="checkbox" name="aficiones" value="cine" id="hobby">Cine</td>
+                    <td><label for="hobby">Aficiones: </label>
+                    <td><input type="checkbox" name="aficiones" value="deporte" id="hobby">Deporte <br>
+
+                        <input type="checkbox" name="aficiones" checked value="lectura" id="hobby">Lectura <br>
+
+                        <input type="checkbox" name="aficiones" value="cine" id="hobby">Cine
+                    </td>
                 </tr>
                 <tr>
                     <td><label for="country">País: </label></td>
@@ -67,8 +66,8 @@
                             cols="40" rows="5"></textarea></td>
                 </tr>
                 <tr>
-                    <td><input type="reset"></td>
-                    <td><input type="submit"></td>
+                    <td class="boton" ><input class="boton"  type="reset" value="Resetear"></td>
+                    <td class="boton" ><input class="boton" type="submit" value="Enviar"></td>
                 </tr>
 
 
