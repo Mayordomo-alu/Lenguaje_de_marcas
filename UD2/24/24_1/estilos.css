@@ -1,0 +1,45 @@
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 20px;
+}
+.cabecera {
+    background-color: aquamarine;
+}
+.contenido {
+    background-color: lightcoral;
+    display: flex;
+    /* queda mas bonito con flex, porque ajusta todo el div de tarjeta por igual, es mas uniforme */
+}
+.pie {
+    background-color: lightsteelblue;
+    margin-top: 10px;
+}
+.tarjeta {
+    width: 210px;
+    padding: 15px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 5px;
+    /*display: inline-block;*/
+}
+.etiqueta {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+.cabecera, .contenido, .pie {
+    border: 1px solid;
+
+}
+
+.cabecera, .pie {
+    text-align: center;
+}
+/*
+.tarjeta:nth-child(3){
+    /*display: none;*/
+    /* deja un hueco, desaparece tal cual*/
+
