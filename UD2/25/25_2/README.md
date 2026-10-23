@@ -1,0 +1,2 @@
+# Sticky/fixed:
+- Con sticky seguira en su linea como deberia de ser, y si le alcanzamos con el scroll, nos empezará a seguir, con fixed siempre nos estará siguiendo, ignorará su posición inicial y se pegará directamente a la parte superior de la web y ya no nos seguirá siempre.
