@@ -1,0 +1,17 @@
+tr:not(.cabecera):nth-child(odd) {
+    background-color: aquamarine;
+}
+tr:not(.cabecera):nth-child(even){
+    background-color: goldenrod;
+}
+
+tr:not(.cabecera):hover{
+    background-color: yellow;
+}
+
+li:nth-child(3n+1) {
+    color: aqua;
+}
+li:nth-child(3) {
+    font-weight: bolder;
+}
