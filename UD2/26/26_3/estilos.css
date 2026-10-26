@@ -1,0 +1,27 @@
+p::first-letter {
+    font-size: x-large;
+    color: aquamarine;
+}
+p::first-line{
+    font-weight: bold;
+}
+*::selection {
+    color: goldenrod;
+}
+li{
+    list-style: none;
+}
+li::before {
+    content: "✔";
+}
+a[target="_blank"]::after {
+    content: "↗";
+}
+h2::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 10px;
+    background-color: aquamarine;
+
+}
